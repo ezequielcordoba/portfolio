@@ -8,7 +8,7 @@ h1{
 }
 p{
     color: #6a6a6a;
-    font-size: 14px;
+    font-size: 18px;
 }
 input, textarea{
     border-radius: 15px !important;
@@ -74,9 +74,11 @@ footer, footer a{
     color: white;
     font-weight: 100;
 }
-footer .fa-github, #sobre-mi .fa-github{
+
+footer .fa-github {
     font-size: 30px;
-    color:red;
+    color:white;
+  
 
 }
 footer .fa-linkedin-in, #sobre-mi .fa-linkedin-in {
@@ -104,7 +106,14 @@ margin: 0 8px;
     width: 60px;
     text-align: center;
 }
+#sobre-mi, #proyectos footer .fa-github{
+    color: red;
 
+}
+#sobre-mi a .fa-github{
+    color: red;
+    font-size: 30px;
+}
 .fa-bars{
     padding: 10px;
     border-radius: 5px;
@@ -140,9 +149,12 @@ margin: 0 8px;
 }
 #inicio p{
     border: 1px solid white;
-    border-radius: 8px;
+    border-radius: 15px;
     height: 30px;
     color: white;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 15px;
 }
 #inicio .btn {
     border-radius: 8px;
@@ -164,8 +176,8 @@ footer, footer a{
 }
 #sobre-mi span img{
     width: 39%;
-    border: 2px solid white;
-    border-radius: 50%;
+    border: 3px solid black;
+    border-radius: 50% ;
 }
 
 
@@ -180,15 +192,53 @@ footer, footer a{
 #tecnologias h3{
     font-size: 15px;
 }
+
+#tecnologias h2{
+    font-size: 24px;
+}
 #mensaje{
     background-color: #eee;
 }
-#experiencia img{
-font-size: 30px;
-margin: 0px;
-}
+
+
 #formacion-academica h3{
     font-size: 18px;
     font-weight: 600;
     color: #6a6a6a;
+}
+#experiencia h2{
+    color: #370A6D;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#experiencia h3, h5 {
+   color:  #6A6A6A;
+   font-size: 18px;
+   font-weight: 600;
+}
+    
+#experiencia h4{
+    font-size: 17px;
+    color: #370A6D;
+}
+
+#formacion-academica, #desarrollo h2, h4{
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+}
+#formacion-academica h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+#mensaje .card{
+    color: white;
+    background-color: #370A6D;
+    padding: 40px 0px;
+    border-radius: 15px;
+}
+#mensaje .fas{
+    font-size: 80px;
+   
 }
