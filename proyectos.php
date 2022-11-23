@@ -38,7 +38,7 @@ $pg = "proyecto";
                 <div class="row card">
                     <img src="..//portfolio2/css/imagenes/abmclientes.png" alt="ABM Clientes" class="img-fluid">
                     <div class="col-12 gradiente px-3 py-2">
-                        <h2>ABM producto</h2>
+                        <h2>ABM Cliente</h2>
                     </div>
                     <div class="col-12 pt-2">
                         <p>Alta, baja y modificacion de un registro de clientes realizando Html.</p>
